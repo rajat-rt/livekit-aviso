@@ -294,8 +294,8 @@
     <div class="topbar-right">
       <div class="avatar" aria-hidden="true"></div>
       <div>
-        <div style="font-weight: 600; font-size: 10px; color: #2f3442;">Allen Walker</div>
-        <div style="font-size: 8.8px;">allen.walker@grid.com</div>
+        <div style="font-weight: 600; font-size: 10px; color: #2f3442;">Shrikant Iyer</div>
+        <div style="font-size: 8.8px;">shrikant.iyer@aviso.com</div>
       </div>
     </div>
   </header>
@@ -316,7 +316,15 @@
             </select>
             <span class="caret">⌄</span>
           </div>
-          <div class="pill">Focus: Pricing <span class="caret">⌄</span></div>
+          <div class="pill select-pill">
+            <label class="pill-label" for="focusSelect">Focus:</label>
+            <select class="pill-select" id="focusSelect" aria-label="Select difficulty">
+              <option value="pricing">Pricing</option>
+              <option value="demo">Demo</option>
+            </select>
+            <span class="caret">⌄</span>
+          </div>
+          <!-- <div class="pill">Focus: Pricing <span class="caret">⌄</span></div> -->
         </div>
         <button class="start-btn" id="startPractice" type="button">Start Practice</button>
       </div>
